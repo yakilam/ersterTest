@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 public class Dorf {
     @Id
-    private int dorfId2;
+    private int dorfId;
     private String dorfName;
     private int dorfXKoordinate;
     private int dorfYKoordinate;
